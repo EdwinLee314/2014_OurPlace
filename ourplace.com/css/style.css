@@ -1,0 +1,21 @@
+html {
+  position: relative;
+  min-height: 100%;
+  
+}
+body {
+  /* Margin top by header height */
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+#header {
+  position: absolute;
+  width: 100%;	
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  background-color: #2D2D2D;
+}
